@@ -8,6 +8,8 @@ h1{
 
 
 #logicTable{
+    margin: 0 auto;
+    margin-top: 150px;
     width: 550px;
 }
 
@@ -17,4 +19,17 @@ h1{
     border: 1px solid;
     display: inline-block;
     max-width: 550px;
+}
+
+.hideButton{
+    border: none;
+}
+
+.logPad{
+    margin-right: 5px;
+}
+
+p{
+    position: fixed;
+    left: 37%;
 }
