@@ -6,7 +6,6 @@ h1{
     text-align: center;
 }
 
-
 #logicTable{
     margin: 0 auto;
     margin-top: 150px;
@@ -29,7 +28,30 @@ h1{
     margin-right: 5px;
 }
 
-p{
+.leftRow{
     position: fixed;
-    left: 37%;
+    left: 32%;
+    
+    
+}
+
+.topRow{
+    display: inline-flex;
+    position: relative;
+    left: 0;
+    writing-mode: vertical-rl;
+    height: px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 14px;
+    font-weight: bolder;
+}
+
+#level1{
+    margin-left: 40%;
+}
+.startLogic{
+    margin-top: 50px;
+    height: 40px;
+    width: 150px;
 }
